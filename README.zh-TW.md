@@ -2,9 +2,9 @@
 
 🌐 [簡體中文](README.md) | **繁體中文** | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
-> **194 個即插即用的 AI 專家角色** — 覆蓋工程、設計、行銷、產品、遊戲、安全、金融等 18 個部門。不是通用提示詞範本，每個智能體都有獨立的人設、專業流程和可交付成果。支援 Claude Code / Cursor / Copilot 等 17 種 AI 程式設計工具。
+> **196 個即插即用的 AI 專家角色** — 覆蓋工程、設計、行銷、產品、遊戲、安全、金融等 18 個部門。不是通用提示詞範本，每個智能體都有獨立的人設、專業流程和可交付成果。支援 Claude Code / Cursor / Copilot 等 17 種 AI 程式設計工具。
 
-[agency-agents](https://github.com/msitarzewski/agency-agents) 的中文社群版。在完整翻譯上游的基礎上，新增了 47 個中國市場原創智能體（小紅書、抖音、微信、B站、飛書、釘釘等平台運營，以及跨境電商、政務ToG、醫療合規、Qt 工業上位機等垂直領域）。
+[agency-agents](https://github.com/msitarzewski/agency-agents) 的中文社群版。在完整翻譯上游的基礎上，新增了 49 個中國市場原創智能體（小紅書、抖音、微信、B站、飛書、釘釘等平台運營，以及跨境電商、政務ToG、醫療合規、Qt 工業上位機、畜禽養殖檔案核對等垂直領域）。
 
 [![GitHub stars](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=social)](https://github.com/jnMetaCode/agency-agents-zh)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,7 +14,7 @@
 
 | 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國市場原創 | 🧠 支援工具 | 🏢 部門 |
 |:---:|:---:|:---:|:---:|:---:|
-| **194** | **147** | **47** | **17 種** | **18 個** |
+| **196** | **147** | **49** | **17 種** | **18 個** |
 
 ---
 
@@ -162,6 +162,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [小紅書專家](marketing/marketing-xiaohongshu-specialist.md) | 生活方式內容、趨勢策略 | 小紅書品牌建設 |
 | [微信公眾號管理](marketing/marketing-wechat-official-account.md) | 訂閱者運營、內容營銷 | 微信公眾號增長 |
 | [知乎策略師](marketing/marketing-zhihu-strategist.md) | 知識型內容、思想領袖建設 | 知乎品牌權威 |
+| [新聞情報官](marketing/marketing-daily-news-briefing.md) ⭐ | 國內外多源新聞採集、交叉驗證、結構化簡報 | 內容生產線上游素材供應 |
 
 > ⭐ 標記的是本專案原創，更貼合國內實操。其餘為上游英文版翻譯。
 
@@ -324,6 +325,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [報告分發師](specialized/report-distribution-agent.md) | 報告分發、多渠道推送 | 自動化報告分發 |
 | [銷售資料提取師](specialized/sales-data-extraction-agent.md) | 銷售資料採集、結構化 | CRM 資料處理 |
 | [合規審計師](specialized/compliance-auditor.md) | SOC 2/ISO 27001/HIPAA 合規 | 合規審計、安全認證 |
+| [養殖檔案核對員](specialized/livestock-archive-auditor.md) ⭐ | 養殖檔案、生產日報、批號 FIFO | 畜禽臺帳錯填漏填核對 |
 | [應付賬款智能體](specialized/accounts-payable-agent.md) | 發票處理、付款自動化 | 財務流程自動化 |
 | [身份圖譜操作員](specialized/identity-graph-operator.md) | 身份解析、多源匹配 | 使用者身份治理 |
 | [文化智慧策略師](specialized/specialized-cultural-intelligence-strategist.md) | 文化洞察、跨文化設計 | 全球化產品、本地化策略 |
@@ -784,11 +786,11 @@ DEERFLOW_SKILLS_DIR=/path/to/deerflow/skills/custom ./scripts/install.sh --tool 
 
 ## 🇨🇳 中國市場原創智能體
 
-除翻譯外，本專案包含 **47 個原創智能體**，專為中國平臺和業務場景打造：
+除翻譯外，本專案包含 **49 個原創智能體**，專為中國平臺和業務場景打造：
 
 - **平臺運營**：小紅書、抖音、微信公眾號/視頻號/小程序、B站、快手、微博、知乎
 - **企業協作**：飛書、釘釘整合開發
-- **垂直領域**：跨境電商、政務ToG、醫療合規、高考志願、留學規劃、Qt 工業上位機
+- **垂直領域**：跨境電商、政務ToG、醫療合規、高考志願、留學規劃、Qt 工業上位機、畜禽養殖檔案核對
 - **業務支撐**：私域流量、直播電商、庫存預測、合約審查、發票管理
 
 > 在上方智能體陣容中標有 ⭐ 的即為原創智能體。
